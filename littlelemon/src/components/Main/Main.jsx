@@ -1,19 +1,17 @@
 import React from "react";
-import './Main.css';
+import "./Main.css";
 import Specials from "./Specials/Specials";
-import Testimonials from './Testimonials/Testimonials';
-import About from  './About/About';
+import Testimonials from "./Testimonials/Testimonials";
+import About from "./About/About";
 
 export default function Main() {
-
-    return (
+  return (
     <>
-    {/* <Header data = { data.type } /> */}
-    <main>
+      <main>
         <Specials />
         <Testimonials />
         <About />
-    </main>
+      </main>
     </>
-    );
+  );
 }
